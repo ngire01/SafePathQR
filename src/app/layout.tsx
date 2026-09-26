@@ -14,7 +14,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <body>
         <header className="site-header">
           <div className="shell header-inner">
-            <Link className="brand" href="/" aria-label="SafePathQR home"><img className="brand-logo" src="/safepathqr-logo.svg" alt="" width="40" height="40" /><span className="brand-name">SafePath<span>QR</span></span></Link>
+            <Link className="brand" href="/" aria-label="SafePathQR home"><img className="brand-logo" src="/safepathqr-icon.png" alt="" width="40" height="40" /><span className="brand-name">SafePath<span>QR</span></span></Link>
             <nav aria-label="Main navigation"><a href="/#check">Check now</a><a href="/#helplines">Helplines</a><Link href="/privacy/">Privacy</Link></nav>
           </div>
         </header>

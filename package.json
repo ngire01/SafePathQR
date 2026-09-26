@@ -1,0 +1,35 @@
+{
+  "name": "hmap-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HMAP: Manchester mental health crisis help finder",
+  "scripts": {
+    "dev": "next dev",
+    "build": "vitest run && next build",
+    "start": "npx serve out",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "check-data": "vitest run tests/data.test.ts",
+    "qr": "node scripts/make-qr.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "leaflet": "1.9",
+    "next": "^16.3.6",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.22",
+    "@types/node": "^22.20.4",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "playwright-core": "^1.63.0",
+    "qrcode": "^1.5.4",
+    "serve": "^14.2.6",
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.2"
+  }
+}

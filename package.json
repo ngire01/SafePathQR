@@ -1,8 +1,8 @@
 {
-  "name": "hmap-web",
+  "name": "safepathqr",
   "version": "1.0.0",
   "private": true,
-  "description": "HMAP: Manchester mental health crisis help finder",
+  "description": "SafePathQR: Manchester mental health crisis help finder",
   "scripts": {
     "dev": "next dev",
     "build": "vitest run && next build",

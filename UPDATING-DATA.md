@@ -1,4 +1,4 @@
-# Updating the information on HMAP
+# Updating the information on SafePathQR
 
 Everything people see (numbers, places, opening hours, check wording, links) is in one file:
 

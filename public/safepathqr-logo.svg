@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">SafePathQR logo</title>
+  <desc id="desc">A rounded shield with a clear path and QR-style squares.</desc>
+  <defs>
+    <linearGradient id="gradient" x1="32" y1="24" x2="224" y2="232" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#18a999"/>
+      <stop offset="1" stop-color="#1769aa"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="64" fill="#f4fbfa"/>
+  <path d="M128 26 211 57v59c0 52-32 89-83 114-51-25-83-62-83-114V57l83-31Z" fill="url(#gradient)"/>
+  <path d="M128 48 190 71v45c0 37-21 66-62 89-41-23-62-52-62-89V71l62-23Z" fill="#fff" opacity=".96"/>
+  <path d="M105 132c8 18 22 29 42 35" fill="none" stroke="#1769aa" stroke-linecap="round" stroke-width="11"/>
+  <path d="M112 142c9-18 25-29 48-31" fill="none" stroke="#18a999" stroke-linecap="round" stroke-width="11"/>
+  <g fill="#12304a">
+    <path d="M84 82h29v29H84zM143 82h29v29h-29zM84 141h29v29H84z"/>
+  </g>
+  <g fill="#18a999">
+    <path d="M92 90h13v13H92zM151 90h13v13h-13zM92 149h13v13H92z"/>
+  </g>
+  <path d="M153 147h19v23h-19zM177 147h12v12h-12zM177 164h12v12h-12z" fill="#12304a"/>
+</svg>

@@ -1,4 +1,4 @@
-# HMAP Manchester
+# SafePathQR
 
 A free, login-free website that helps people in a mental health crisis in Manchester find help fast:
 helplines, a two-question "where should I go?" check, nearby A&E and crisis cafés on a live map, and
@@ -33,8 +33,8 @@ npm run dev        # open http://localhost:3000
 Any static host works. Vercel is set up out of the box (`vercel.json` holds the security headers).
 Netlify and Cloudflare Pages read `public/_headers`. Build command `npm run build`, output folder `out`.
 
-Set the environment variable `NEXT_PUBLIC_SITE_URL` to the real address (e.g. `https://hmap.org.uk`)
-so links shared on social media and the sitemap point to the right place.
+Set the environment variable `NEXT_PUBLIC_SITE_URL` to the final SafePathQR address so links shared
+on social media and the sitemap point to the right place.
 
 ## Where things are
 
